@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/secondry_color"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/third_color"
+        android:orientation="vertical"
+        android:layout_height="75dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_btn"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_edt"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        />
+
+    <EditText
+        android:id="@+id/emailEdt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input"
+
+        android:layout_margin="8dp"
+        android:textAlignment="viewStart"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password_edt"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordEdt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input"
+
+        android:textAlignment="viewStart"
+        android:layout_margin="8dp"
+
+        android:inputType="textPassword"
+        android:gravity="start"
+        android:padding="10dp" />
+    <!-- Login Button -->
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/login_btn"
+        android:onClick="goHome"
+        android:layout_margin="8dp"
+        android:text="@string/login_btn"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/registerTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="returnRegister"
+
+            android:text="@string/register_txt"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />  <TextView
+        android:id="@+id/registerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="returnRegister"
+android:layout_marginStart="5dp"
+        android:text="@string/clickhere"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        />
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/log_progressBar"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:indeterminateTint="@color/main_color"
+        android:visibility="invisible" />
+</LinearLayout>
