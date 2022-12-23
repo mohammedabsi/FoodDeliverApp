@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodDeliveryApp</string>
+    <string name="app_name">Midnight Meal</string>
     <string name="login_btn">Login</string>
     <string name="email_edt">Email</string>
     <string name="password_edt">Password</string>
@@ -140,4 +140,10 @@
     <string name="login_text">already have account ?</string>
     <string name="mainpage">Main Page</string>
     <string name="requests">requests</string>
+    <string name="register_complete">Complete Registration</string>
+    <string name="customer">Customer</string>
+    <string name="farmer">Farmer</string>
+    <string name="owner">Owner</string>
+    <string name="delivery">Delivery</string>
+    <string name="choose_account_type">Choose Account Type</string>
 </resources>

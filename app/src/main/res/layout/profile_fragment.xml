@@ -75,50 +75,7 @@
 
     </RelativeLayout>
 
-    <RelativeLayout
-        android:id="@+id/managefolloing_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
-        android:visibility="gone"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/login_btn"
-        android:orientation="horizontal"
-        android:padding="10dp">
 
-        <ImageView
-            android:id="@+id/ic2"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-
-            android:scaleType="center"
-            android:src="@drawable/ic_manageperson"
-
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/ic2"
-            android:padding="5dp"
-            android:text="@string/managefollowing"
-            android:textSize="14sp" />
-
-        <ImageView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:padding="5dp"
-            android:src="@drawable/ic_back"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-
-    </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/settingslayout"

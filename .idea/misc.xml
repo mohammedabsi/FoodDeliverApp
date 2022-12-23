@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/drawable/background_btn.xml" value="0.1" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/drawable/ic_accept.xml" value="0.287" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/drawable/ic_likeheart.xml" value="0.196" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/drawable/ic_location.xml" value="0.196" />
@@ -10,10 +11,14 @@
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/drawable/input.xml" value="0.287" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/drawable/login_btn.xml" value="0.1" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/activity_signin.xml" value="0.1765625" />
+        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/activity_signup.xml" value="0.18645833333333334" />
+        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/activity_signup2.xml" value="0.3074074074074074" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/location_fragment.xml" value="0.5" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/login_fragment.xml" value="0.3074074074074074" />
-        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/profile_fragment.xml" value="0.33" />
-        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/register_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/profile_fragment.xml" value="0.2" />
+        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/register2_fragment.xml" value="0.33" />
+        <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/layout/register_fragment.xml" value="0.25" />
         <entry key="..\:/projects/FoodDeliveryApp/app/src/main/res/menu/navigation.xml" value="0.36666666666666664" />
       </map>
     </option>
