@@ -93,9 +93,9 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_toEndOf="@+id/ic3"
             android:padding="5dp"
-            android:layout_centerHorizontal="true"
             android:text="@string/requests"
             android:textColor="@color/white"
             android:textSize="14sp" />
@@ -120,11 +120,11 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_toEndOf="@+id/ic3"
             android:padding="5dp"
             android:text="@string/settings"
             android:textColor="@color/white"
-            android:layout_centerHorizontal="true"
             android:textSize="14sp" />
 
 

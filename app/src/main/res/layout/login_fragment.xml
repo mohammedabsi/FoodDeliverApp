@@ -102,17 +102,17 @@
             android:textColor="@color/black"
             android:textSize="16sp"
             />
+
         <TextView
-        android:id="@+id/registerTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:onClick="returnRegister"
-android:layout_marginStart="5dp"
-        android:text="@string/clickhere"
-        android:textColor="@color/main_color"
-        android:textSize="16sp"
-        />
+            android:id="@+id/registerTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:onClick="returnRegister"
+            android:text="@string/clickhere"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
